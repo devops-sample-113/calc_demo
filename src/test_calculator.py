@@ -30,6 +30,5 @@ class TestCalculator(unittest.TestCase):
         result = self.calculator.calculate(10, 5, "unknown")
         self.assertEqual(result, "Invalid operator")
 
-
 if __name__ == "__main__":
     unittest.main()
